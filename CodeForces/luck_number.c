@@ -1,18 +1,16 @@
 #include <stdio.h>
 #include <string.h>
-#include <conio.h>
 
 int main(){
 
 	int i;
 	int contador = 0;
-	long long size = 80;
+	long long size = 1000000000000000000;
 	char numeros[size + 2];
 
-	gets(numeros);
+	fgets(numeros,size + 2, stdin);
 	
-
-	for(i = 0; i < strlen(numeros) - 1; i++){
+	for(i = 0; i < strlen(numeros); i++){
 
 		if(numeros[i] == '4' || numeros[i] == '7'){
 			contador++;
@@ -20,9 +18,14 @@ int main(){
 
 	}
 
-	printf("%d",contador);
+    if(contador == 7 || contador == 4){
+        printf("YES");
+    }
+    else{
+        printf("NO");
+    }
+	
 
-	getch();
 	return 0;
 
 }

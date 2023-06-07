@@ -34,7 +34,7 @@ int main(){
         colunas.push_back(soma);
         soma = 0;
     }
-
+    
     //para ver a diagonal da esquerda para direita
     for(int d = 0; d < n; d++){
         diagonal_D += quadrado[d][d];

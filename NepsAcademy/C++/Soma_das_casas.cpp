@@ -9,7 +9,6 @@ int main(){
     int c,n,a,b,t;
     cin >> c;
 
-
     for(int i = 0; i < c; i++){
         cin >> n;
         numeros.insert(n);

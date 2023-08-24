@@ -21,8 +21,8 @@ int main(){
                 conte++;
             }
         }
-        for(int j = x-1; j < r-1; j++){
-            if(pages[j] > pages[r-1]){
+        for(int j = x; j < r; j++){
+            if(pages[j] < pages[x-1]){
                 contd++;
             }
         }

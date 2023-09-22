@@ -37,5 +37,5 @@ int main(){
     }
 
     return 0;
-/*Questão do UVa - JUMPING MARIO em linguagem C:*/
+/*11764 Uva Online Judge --> Jumping Mario*/
 }

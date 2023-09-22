@@ -27,7 +27,7 @@ int main(){
     }
 
     return 0;
-    /*Questão do UVA - Brick Game em linguagem C :*/
+    /*11875 Uva Online Judge - Brick Game em linguagem C :*/
 }
 
 

@@ -20,5 +20,5 @@ int main(){
    }
     return 0;
 
-    /*QUESTÂO do UVa - Etruscan Warriors em linguagem C: */
+    /*11614 Uva Online Judge - Etruscan Warriors never play chess */
 }

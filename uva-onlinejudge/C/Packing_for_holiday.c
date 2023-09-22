@@ -19,5 +19,5 @@ int main(){
     }
 
     return 0;
-    /*QUESTÂO UVa - Packing for Holiday em linguagem C:                   mister bean??*/
+    /* 12372 Uva Online Judge --> Packing for a holiday*/
 }

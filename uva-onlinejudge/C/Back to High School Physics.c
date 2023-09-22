@@ -10,5 +10,5 @@ int main(){
             
     }
     return 0;
-    /*QUESTÂO do UVa - Back to High School Physics*/
+    /*10071 Uva Online Judge --> Back to High School Physics*/
 }            

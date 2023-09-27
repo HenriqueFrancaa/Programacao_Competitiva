@@ -9,43 +9,44 @@ int main(){
     cin >> n >> k >> p;
     int sub;
 
-    int r = 0, l = 0, a = 0;
+    int i = 0, j = 0, a = 0;
 
-    while(r < n){
-        if(p[r] == 'a'){
+    while(i < n){
+        if(p[i] == 'a'){
             a++;
         }
         if(a <= k){
-            sub = max(sub, r-l+1);    
+            sub = max(sub, i-j+1);    
         }
         while(a > k){
-            if(p[l] == 'a'){
+            if(p[j] == 'a'){
                 a--;
             }
-            l++;
+            j++;
         }
-        r++;
+        i++;
     }
 
-    r = 0, l = 0; int b = 0;
 
-    while(r < n){
-        if(p[r] == 'b'){
+    i = 0, j = 0; int b = 0;
+    while(i < n){
+        if(p[i] == 'b'){
             b++;
         }
         if(b <= k){
-            sub = max(sub, r-l+1);
+            sub = max(sub, i-j+1);
         }
         while(b > k){
-            if(p[l] == 'b'){
+            if(p[j] == 'b'){
                 b--;
             }
-            l++;
+            j++;
         }
-        r++;
+        i++;
     }
 
     cout << sub << endl;
-    
+
     return 0;
+    //Vasya and String ---> Codeforces
 }

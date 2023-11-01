@@ -30,5 +30,7 @@ int main(){
             cout << ans << endl;
         }
     }
+    //UVA 11332 - Summing digits.
+    //https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2307
     return 0;
 }

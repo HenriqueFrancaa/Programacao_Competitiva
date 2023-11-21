@@ -23,7 +23,7 @@ int main(){
             break;
         }
     }
-    cout << a << " " << b;
+    cout << a << " " << b << endl;
 
     return 0;
 }

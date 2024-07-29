@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+ 
 typedef long long ll;
-
+ 
 ll n,h;
-
+ 
 int main(){
     cin >> n >> h;
     vector<ll>start,end;
@@ -35,11 +35,11 @@ int main(){
         }
         mx = max(mx, h + plan[j] - plan[i]);
     }
-
+ 
     cout << mx << endl;
     
     //CodeForces -> D. Glider
     //https://codeforces.com/problemset/problem/1041/D
-
+ 
     return 0;
 }

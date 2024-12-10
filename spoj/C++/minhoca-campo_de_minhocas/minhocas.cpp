@@ -2,24 +2,23 @@
 using namespace std;
 
 int main(){
-    int n,m,x; cin >> n >> m;
-    vector<int>linhas (n,0);
-    vector<int>colunas (m,0);
+    int n,m; cin >> n >> m;
+    int x;
+    vector<int>row(n,0);
+    vector<int>col(m,0);
 
     for(int i = 0; i < n; i++){
         for(int j = 0; j < m; j++){
             cin >> x;
-            linhas[i]+=x;
-            colunas[j]+=x;
+            row[i]+= x;
+            col[j]+= x;
         }
     }
 
-    sort(linhas.begin(),linhas.end());
-    sort(colunas.begin(),colunas.end());
+    sort(row.begin(), row.end());
+    sort(col.begin(), col.end());
 
-    cout << max(linhas[linhas.size()-1],colunas[colunas.size()-1]) << endl;
-    
-    //https://br.spoj.com/problems/MINHOCA/
-    //MINHOCA - Campo de Minhocas
+    cout << max(row[row.size()-1], col[col.size()-1]) << endl;
+
     return 0;
 }
